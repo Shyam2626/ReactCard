@@ -1,0 +1,53 @@
+.card{
+    width:300px;
+    background-color: #444444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    margin:50px 0;
+    width:250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.content img{
+    margin-top: 30px;
+    width: 80%;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button a{
+    margin: 0 10px;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.about .about-content{
+    color: white;
+    margin:0 10px;
+}
+
+.social .icon{
+    margin:0 5px 20px;
+}

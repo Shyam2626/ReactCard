@@ -5,10 +5,10 @@ import Button from './components/button';
 import About from './components/about';
 import Social from './components/social';
 
-
 function App() {
   return (
-    <div className="card">
+    <div className='container'>
+      <div className="card">
       <div className="content">
         <img src={photo}/>
         <Details />
@@ -16,6 +16,8 @@ function App() {
         <About />
         <Social />
       </div>
+    </div>
+      
     </div>
   );
 }
